@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  background: white;
+  color: black;
+}
+::-webkit-scrollbar{
+  width: 10px;
+  border-radius: 8px;
+  background-color: rgb(245, 245, 245);
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 8px;
+  background-color: #920808;
+}
+::-webkit-scrollbar-thumb:hover{
+  border-radius: 8px;
+  background-color: #FCCB05;
+}
+input{
+  background: white;
+  color: black;
+}
+.drawer-side a.active{
+  color: white;
+  background-color: transparent;
+}
+.drawer-side a{
+  color: black;
+}
